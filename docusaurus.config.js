@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'camel-quant', // Usually your GitHub org/user name.
-  projectName: 'camel-quant', // Usually your repo name.
+  projectName: 'camel-quant.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'camel quant',
