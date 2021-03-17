@@ -19,13 +19,21 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'doc',
+          label: 'Docs',
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: 'api/',
+          activeBasePath: 'api',
+          label: 'API',
+          position: 'left',
+        },
+
+        {
+          to: 'download/',
+          activeBasePath: 'download',
+          label: 'download',
+          position: 'left',
         },
       ],
     },
