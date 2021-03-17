@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'high performance and flexable quant platform',
   url: 'https://camle-quant.github.io',
   baseUrl: '/',
-  //onBrokenLinks: 'throw',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'camel-quant', // Usually your GitHub org/user name.
