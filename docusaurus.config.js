@@ -1,16 +1,16 @@
 module.exports = {
-  title: '骆驼量化',
-  tagline: '负重行远',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Camel Quant',
+  tagline: 'high performance and flexable quant platform',
+  url: 'https://camle-quant.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'camel-quant', // Usually your GitHub org/user name.
-  projectName: 'camel quant', // Usually your repo name.
+  projectName: 'camel-quant', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '骆驼量化',
+      title: 'camel quant',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: '文档',
+          label: 'doc',
           position: 'left',
         },
         {
@@ -33,20 +33,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: '联系我们',
+          title: 'contact us',
           items: [
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: '邮箱',
+              label: 'Email',
               href: 'https://twitter.com/docusaurus',
             },
           ],
         },
         {
-          title: '更多',
+          title: 'More',
           items: [
             {
               label: 'Blog',
