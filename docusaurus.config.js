@@ -17,22 +17,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: 'docs/docs/introduction',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'api/',
-          activeBasePath: 'api',
+          to: 'docs/api/common_lib/data_model',
           label: 'API',
-          position: 'left',
-        },
-
-        {
-          to: 'download/',
-          activeBasePath: 'download',
-          label: 'download',
           position: 'left',
         },
       ],
